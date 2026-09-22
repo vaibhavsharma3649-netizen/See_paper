@@ -1,0 +1,30 @@
+# Environment / secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Chroma / vector databases
+chroma_db*/
+recommendation_db/
+vector_cache/
+
+# Downloaded papers / generated files
+papers/
+paper_images/
+
+# Datasets
+data/
+*.csv
+*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
